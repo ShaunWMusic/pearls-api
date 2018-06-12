@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  delivery_date: 2018-06-10 09:36:43
+  barbershop_name: MyString
+  beardbark: 1
+  sandycheeks: 1
+  comments: MyText
+  contact_person: MyString
+  total_beard_oils_delivered: 1
+
+two:
+  delivery_date: 2018-06-10 09:36:43
+  barbershop_name: MyString
+  beardbark: 1
+  sandycheeks: 1
+  comments: MyText
+  contact_person: MyString
+  total_beard_oils_delivered: 1

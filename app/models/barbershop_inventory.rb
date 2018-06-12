@@ -1,0 +1,2 @@
+class BarbershopInventory < ApplicationRecord
+end
