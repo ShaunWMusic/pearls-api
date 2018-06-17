@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180610143643) do
+ActiveRecord::Schema.define(version: 20180615002726) do
 
   create_table "barbershop_inventories", force: :cascade do |t|
     t.string "delivery_date"
@@ -40,11 +40,11 @@ ActiveRecord::Schema.define(version: 20180610143643) do
     t.string "email"
     t.string "username"
     t.string "password_digest"
-    t.boolean "is_admin"
-    t.boolean "is_barbershop"
-    t.boolean "is_customer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "admin"
+    t.boolean "barbershop"
+    t.boolean "customer"
   end
 
 end

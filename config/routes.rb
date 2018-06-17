@@ -6,5 +6,5 @@ Rails.application.routes.draw do
 
   jsonapi_resources :contacts
   jsonapi_resources :barbershop_inventories
-  jsonapi_resources :users, only: [:create]
+  jsonapi_resources :users
 end

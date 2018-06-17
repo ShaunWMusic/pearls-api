@@ -1,1 +1,1 @@
-Rails db:migrate
+
