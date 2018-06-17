@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180615002726) do
+ActiveRecord::Schema.define(version: 20180617030646) do
 
   create_table "barbershop_inventories", force: :cascade do |t|
     t.string "delivery_date"
@@ -32,6 +32,21 @@ ActiveRecord::Schema.define(version: 20180615002726) do
     t.text "call_log"
     t.string "website"
     t.string "address"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "customers", force: :cascade do |t|
+    t.integer "account_balance"
+    t.integer "business_vat_id"
+    t.string "coupon"
+    t.string "default_source"
+    t.string "description"
+    t.string "email"
+    t.string "invoice_prefix"
+    t.string "metadata"
+    t.string "shipping"
+    t.string "source"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
