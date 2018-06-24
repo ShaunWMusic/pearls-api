@@ -13,11 +13,11 @@ group :development, :test do
   gem 'sqlite3'
   # gem 'mysql2'
 end
-
 group :production do
   gem 'mysql2'
 end
 
+gem 'dotenv-rails'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 # Use Puma as the app server
