@@ -1,7 +1,7 @@
 # require "stripe"
 
-class CustomerController < ApplicationController
-  #
+class CustomersController < ApplicationController
+
   # # Set your secret key: remember to change this to your live secret key in production
   # # See your keys here: https://dashboard.stripe.com/account/apikeys
   # Stripe.api_key = "sk_test_s0K3fATZllg9LlaxO55tlkP1"
