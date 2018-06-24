@@ -9,13 +9,13 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use sqlite3 as the database for Active Record
-group :development, :test do
-  gem 'sqlite3'
+# group :development, :test do
+  # gem 'sqlite3'
   # gem 'mysql2'
-end
-group :production do
+# end
+# group :production do
   gem 'mysql2', '~> 0.3.18'
-end
+# end
 
 gem 'dotenv-rails'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
