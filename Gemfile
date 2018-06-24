@@ -14,7 +14,7 @@ group :development, :test do
   # gem 'mysql2'
 end
 group :production do
-  gem 'mysql2'
+  gem 'mysql2', '~> 0.3.18'
 end
 
 gem 'dotenv-rails'
