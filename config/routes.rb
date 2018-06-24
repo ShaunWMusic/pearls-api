@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   get "/users/me", to: "users#show_current"
 
   jsonapi_resources :contacts
+  jsonapi_resources :scent_schedules
   jsonapi_resources :barbershop_inventories
+  jsonapi_resources :customers
+  jsonapi_resources :charges
   jsonapi_resources :users
 end

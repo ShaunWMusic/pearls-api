@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180615002726) do
+ActiveRecord::Schema.define(version: 20180622010622) do
 
   create_table "barbershop_inventories", force: :cascade do |t|
     t.string "delivery_date"
@@ -20,6 +20,14 @@ ActiveRecord::Schema.define(version: 20180615002726) do
     t.text "comments"
     t.string "contact_person"
     t.integer "total_beard_oils_delivered"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "charges", force: :cascade do |t|
+    t.float "amount"
+    t.string "description"
+    t.string "currency"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -34,6 +42,41 @@ ActiveRecord::Schema.define(version: 20180615002726) do
     t.string "address"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "customers", force: :cascade do |t|
+    t.integer "account_balance"
+    t.integer "business_vat_id"
+    t.string "coupon"
+    t.string "default_source"
+    t.string "description"
+    t.string "email"
+    t.string "invoice_prefix"
+    t.string "metadata"
+    t.string "shipping"
+    t.string "source"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "scent_schedules", force: :cascade do |t|
+    t.string "jan"
+    t.string "feb"
+    t.string "mar"
+    t.string "apr"
+    t.string "may"
+    t.string "jun"
+    t.string "jul"
+    t.string "aug"
+    t.string "sept"
+    t.string "oct"
+    t.string "nov"
+    t.string "dec"
+    t.string "userid"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "user_id"
+    t.index ["user_id"], name: "index_scent_schedules_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|

@@ -18,6 +18,8 @@ group :production do
   gem 'mysql2'
 end
 
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
