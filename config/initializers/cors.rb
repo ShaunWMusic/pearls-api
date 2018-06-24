@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'pearlsbeardoil.com'
+    origins 'www.pearlsbeardoil.com'
 
     resource '*',
       headers: :any,
