@@ -26225,3 +26225,144 @@ Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms)
   [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
   [1m[36mUser Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
   [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (35.0ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (35.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (36.0ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (43.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (47.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (38.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (37.0ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (36.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (40.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (39.8ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (34.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (35.3ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (39.0ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (39.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (38.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (37.3ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (38.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (40.5ms)[0m  [1m[31mROLLBACK[0m
+Started POST "/users" for 127.0.0.1 at 2018-06-24 13:48:12 -0500
+  [1m[35m (37.6ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (36.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"email"=>"pearlsbeardoil@gmail.com", "username"=>"Founder", "password"=>"[FILTERED]", "password-confirmation"=>"[FILTERED]", "admin"=>false, "barbershop"=>false, "customer"=>true}, "type"=>"users"}}
+  [1m[35m (36.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (43.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'pearlsbeardoil@gmail.com' LIMIT 1[0m
+  [1m[36mUser Exists (35.9ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'Founder' LIMIT 1[0m
+  [1m[35mSQL (47.9ms)[0m  [1m[32mINSERT INTO `users` (`email`, `username`, `password_digest`, `created_at`, `updated_at`, `admin`, `barbershop`, `customer`) VALUES ('pearlsbeardoil@gmail.com', 'Founder', '$2a$10$7cAe4B69qXnmvy9f5UEC6.ks1rFe/BS2Am.D9ObUhrD/MOxtrX9.6', '2018-06-24 18:48:13', '2018-06-24 18:48:13', 0, 0, 1)[0m
+  [1m[35m (62.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 296ms (Views: 0.8ms | ActiveRecord: 226.2ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2018-06-24 13:48:42 -0500
+Processing by SessionController#create as API_JSON
+  Parameters: {"password"=>"[FILTERED]", "email"=>"pearlsbeardoil@gmail.com"}
+  [1m[36mUser Load (39.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'pearlsbeardoil@gmail.com' LIMIT 1[0m
+Completed 200 OK in 156ms (Views: 0.3ms | ActiveRecord: 39.3ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-24 13:48:43 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (45.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 86ms (Views: 0.5ms | ActiveRecord: 45.2ms)
+
+
+  [1m[35m (38.8ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (38.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (34.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (36.8ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (38.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (37.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (34.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (40.1ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (39.6ms)[0m  [1m[31mROLLBACK[0m
+Started GET "/contacts" for 127.0.0.1 at 2018-06-24 13:51:13 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (43.6ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 513ms (Views: 0.7ms | ActiveRecord: 194.0ms)
+
+
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-24 13:51:22 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (40.4ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 171ms (Views: 1.0ms | ActiveRecord: 123.6ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2018-06-24 13:53:15 -0500
+Processing by SessionController#create as API_JSON
+  Parameters: {"password"=>"[FILTERED]", "email"=>"pearlsbeardoil@gmail.com"}
+  [1m[36mUser Load (41.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'pearlsbeardoil@gmail.com' LIMIT 1[0m
+Completed 200 OK in 442ms (Views: 0.2ms | ActiveRecord: 41.3ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-24 13:53:16 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (33.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 73ms (Views: 0.5ms | ActiveRecord: 33.1ms)
+
+
+Started GET "/scent-schedules?filter%5Bquery%5D=2" for 127.0.0.1 at 2018-06-24 13:53:20 -0500
+Processing by ScentSchedulesController#index as API_JSON
+  Parameters: {"filter"=>{"query"=>"2"}}
+  [1m[36mScentSchedule Load (42.4ms)[0m  [1m[34mSELECT `scent_schedules`.* FROM `scent_schedules` WHERE (userid LIKE '%2%') ORDER BY `scent_schedules`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 164ms (Views: 1.1ms | ActiveRecord: 117.4ms)
+
+
+Started GET "/scent-schedules?filter%5Bquery%5D=2" for 127.0.0.1 at 2018-06-24 13:53:24 -0500
+Processing by ScentSchedulesController#index as API_JSON
+  Parameters: {"filter"=>{"query"=>"2"}}
+  [1m[36mScentSchedule Load (41.5ms)[0m  [1m[34mSELECT `scent_schedules`.* FROM `scent_schedules` WHERE (userid LIKE '%2%') ORDER BY `scent_schedules`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 99ms (Views: 0.6ms | ActiveRecord: 41.5ms)
+
+
+  [1m[35m (36.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (41.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (33.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (35.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (36.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (37.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (35.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (36.1ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (37.7ms)[0m  [1m[31mROLLBACK[0m
+Started POST "/session" for 127.0.0.1 at 2018-06-24 13:54:45 -0500
+Processing by SessionController#create as API_JSON
+  Parameters: {"password"=>"[FILTERED]", "email"=>"pearlsbeardoil@gmail.com"}
+  [1m[36mUser Load (36.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'pearlsbeardoil@gmail.com' LIMIT 1[0m
+Completed 200 OK in 420ms (Views: 0.2ms | ActiveRecord: 36.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-24 13:54:45 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (36.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 72ms (Views: 0.3ms | ActiveRecord: 36.3ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-24 13:54:48 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (44.9ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 84ms (Views: 0.7ms | ActiveRecord: 44.9ms)
+
+
+  [1m[35m (35.4ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (34.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (39.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (37.8ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (37.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (36.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (37.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (36.8ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (40.2ms)[0m  [1m[31mROLLBACK[0m
