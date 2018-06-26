@@ -26375,3 +26375,2093 @@ Completed 200 OK in 84ms (Views: 0.7ms | ActiveRecord: 44.9ms)
   [1m[36mUser Exists (38.9ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
   [1m[36mUser Exists (44.3ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
   [1m[35m (44.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (46.0ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (34.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (40.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (37.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (36.9ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (33.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (40.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (41.1ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (36.7ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (38.4ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (33.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (33.8ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (37.3ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (46.9ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (43.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (38.9ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (37.3ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (37.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (44.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (36.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (37.3ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (36.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (47.9ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (43.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (36.8ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (38.1ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (40.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (59.9ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (35.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (33.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (36.0ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (32.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (36.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (46.3ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (44.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (34.7ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (36.6ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (37.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (37.8ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (38.4ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (47.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (60.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (41.4ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (50.3ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (59.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (37.1ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (34.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (37.8ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (39.9ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (35.9ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (53.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (42.0ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (36.4ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (36.9ms)[0m  [1m[31mROLLBACK[0m
+Started POST "/users" for 127.0.0.1 at 2018-06-25 19:19:36 -0500
+  [1m[35m (35.4ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (75.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by UsersController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"email"=>"localhost@admin.com", "username"=>"localhost", "password"=>"[FILTERED]", "password-confirmation"=>"[FILTERED]", "admin"=>false, "barbershop"=>false, "customer"=>true}, "type"=>"users"}}
+  [1m[35m (39.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (34.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'localhost@admin.com' LIMIT 1[0m
+  [1m[36mUser Exists (42.9ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'localhost' LIMIT 1[0m
+  [1m[35mSQL (42.7ms)[0m  [1m[32mINSERT INTO `users` (`email`, `username`, `password_digest`, `created_at`, `updated_at`, `admin`, `barbershop`, `customer`) VALUES ('localhost@admin.com', 'localhost', '$2a$10$54K4mV./DObLHa1gFKjtIeyAze7SsPf4HqEA3lsA6ZSgH3333lWzi', '2018-06-26 00:19:37', '2018-06-26 00:19:37', 0, 0, 1)[0m
+  [1m[35m (47.9ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 276ms (Views: 1.2ms | ActiveRecord: 207.0ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2018-06-25 19:19:46 -0500
+Processing by SessionController#create as API_JSON
+  Parameters: {"password"=>"[FILTERED]", "email"=>"pearlsbeardoil@gmail.com"}
+  [1m[36mUser Load (41.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'pearlsbeardoil@gmail.com' LIMIT 1[0m
+Completed 200 OK in 144ms (Views: 0.2ms | ActiveRecord: 41.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:19:46 -0500
+Processing by UsersController#show_current as API_JSON
+  Rendering text template
+  Rendered text template (0.0ms)
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:21:05 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (40.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 528ms (Views: 0.4ms | ActiveRecord: 40.2ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2018-06-25 19:21:07 -0500
+Processing by SessionController#create as API_JSON
+  Parameters: {"password"=>"[FILTERED]", "email"=>"pearlsbeardoil@gmail.com"}
+  [1m[36mUser Load (48.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'pearlsbeardoil@gmail.com' LIMIT 1[0m
+Completed 200 OK in 157ms (Views: 0.2ms | ActiveRecord: 48.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-06-25 19:21:26 -0500
+Processing by UsersController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"email"=>"test@gmail.com", "username"=>"test", "password"=>"[FILTERED]", "password-confirmation"=>"[FILTERED]", "admin"=>false, "barbershop"=>false, "customer"=>true}, "type"=>"users"}}
+  [1m[35m (46.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (45.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'test@gmail.com' LIMIT 1[0m
+  [1m[36mUser Exists (39.1ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'test' LIMIT 1[0m
+  [1m[35mSQL (36.2ms)[0m  [1m[32mINSERT INTO `users` (`email`, `username`, `password_digest`, `created_at`, `updated_at`, `admin`, `barbershop`, `customer`) VALUES ('test@gmail.com', 'test', '$2a$10$N.1OCLqNP/Km9TFYLTWmC.UJgReYjEwggMKGEwBRDU1sZRZIcU2IW', '2018-06-26 00:21:26', '2018-06-26 00:21:26', 0, 0, 1)[0m
+  [1m[35m (39.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 310ms (Views: 0.6ms | ActiveRecord: 206.6ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2018-06-25 19:21:36 -0500
+Processing by SessionController#create as API_JSON
+  Parameters: {"password"=>"[FILTERED]", "email"=>"test@admin.com"}
+  [1m[36mUser Load (62.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'test@admin.com' LIMIT 1[0m
+Completed 401 Unauthorized in 171ms (Views: 0.2ms | ActiveRecord: 62.4ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2018-06-25 19:22:18 -0500
+Processing by SessionController#create as API_JSON
+  Parameters: {"password"=>"[FILTERED]", "email"=>"test@gmail.com"}
+  [1m[36mUser Load (54.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'test@gmail.com' LIMIT 1[0m
+Completed 200 OK in 169ms (Views: 0.1ms | ActiveRecord: 54.5ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:22:18 -0500
+Processing by UsersController#show_current as API_JSON
+  Rendering text template
+  Rendered text template (0.0ms)
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:23:24 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (51.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 52 LIMIT 1[0m
+Completed 200 OK in 616ms (Views: 0.3ms | ActiveRecord: 51.6ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2018-06-25 19:26:25 -0500
+Processing by SessionController#create as API_JSON
+  Parameters: {"password"=>"[FILTERED]", "email"=>"test@gmail.com"}
+  [1m[36mUser Load (48.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'test@gmail.com' LIMIT 1[0m
+Completed 200 OK in 474ms (Views: 0.2ms | ActiveRecord: 48.9ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:26:25 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (39.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 52 LIMIT 1[0m
+Completed 200 OK in 85ms (Views: 0.5ms | ActiveRecord: 39.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-06-25 19:26:54 -0500
+Processing by UsersController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"email"=>"test1@gmail.com", "username"=>"test1", "password"=>"[FILTERED]", "password-confirmation"=>"[FILTERED]", "admin"=>false, "barbershop"=>false, "customer"=>true}, "type"=>"users"}}
+  [1m[35m (42.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (64.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'test1@gmail.com' LIMIT 1[0m
+  [1m[36mUser Exists (45.0ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'test1' LIMIT 1[0m
+  [1m[35mSQL (35.1ms)[0m  [1m[32mINSERT INTO `users` (`email`, `username`, `password_digest`, `created_at`, `updated_at`, `admin`, `barbershop`, `customer`) VALUES ('test1@gmail.com', 'test1', '$2a$10$73ZIff7pNEYXeWjRHFROMu4IQjSpmTd.mo/qBgSMomczamQ/65J..', '2018-06-26 00:26:55', '2018-06-26 00:26:55', 0, 0, 1)[0m
+  [1m[35m (42.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 336ms (Views: 0.6ms | ActiveRecord: 229.7ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2018-06-25 19:27:05 -0500
+Processing by SessionController#create as API_JSON
+  Parameters: {"password"=>"[FILTERED]", "email"=>"test1@gmail.com"}
+  [1m[36mUser Load (126.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'test1@gmail.com' LIMIT 1[0m
+Completed 200 OK in 232ms (Views: 0.2ms | ActiveRecord: 126.5ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:27:05 -0500
+Processing by UsersController#show_current as API_JSON
+  Rendering text template
+  Rendered text template (0.0ms)
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:28:33 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (39.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 62 LIMIT 1[0m
+Completed 200 OK in 441ms (Views: 0.4ms | ActiveRecord: 39.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-06-25 19:29:02 -0500
+Processing by UsersController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"email"=>"test2@gmail.com", "username"=>"test3", "password"=>"[FILTERED]", "password-confirmation"=>"[FILTERED]", "admin"=>false, "barbershop"=>false, "customer"=>true}, "type"=>"users"}}
+  [1m[35m (39.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (38.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'test2@gmail.com' LIMIT 1[0m
+  [1m[36mUser Exists (37.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'test3' LIMIT 1[0m
+  [1m[35mSQL (46.5ms)[0m  [1m[32mINSERT INTO `users` (`email`, `username`, `password_digest`, `created_at`, `updated_at`, `admin`, `barbershop`, `customer`) VALUES ('test2@gmail.com', 'test3', '$2a$10$VtyApamZs0HcPVgqWUTJYOYzmTh0oLPFmTiEtDWnDhIBMeMd8.XHq', '2018-06-26 00:29:02', '2018-06-26 00:29:02', 0, 0, 1)[0m
+  [1m[35m (34.1ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 297ms (Views: 0.6ms | ActiveRecord: 196.4ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2018-06-25 19:29:16 -0500
+Processing by SessionController#create as API_JSON
+  Parameters: {"password"=>"[FILTERED]", "email"=>"test3@gmail.com"}
+  [1m[36mUser Load (38.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'test3@gmail.com' LIMIT 1[0m
+Completed 401 Unauthorized in 149ms (Views: 0.2ms | ActiveRecord: 38.7ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2018-06-25 19:29:30 -0500
+Processing by SessionController#create as API_JSON
+  Parameters: {"password"=>"[FILTERED]", "email"=>"test2@gmail.com"}
+  [1m[36mUser Load (41.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'test2@gmail.com' LIMIT 1[0m
+Completed 200 OK in 141ms (Views: 0.1ms | ActiveRecord: 41.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:29:30 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (34.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 72 LIMIT 1[0m
+Completed 200 OK in 84ms (Views: 0.3ms | ActiveRecord: 34.7ms)
+
+
+Started GET "/scent-schedules?filter%5Bquery%5D=72" for 127.0.0.1 at 2018-06-25 19:29:53 -0500
+Processing by ScentSchedulesController#index as API_JSON
+  Parameters: {"filter"=>{"query"=>"72"}}
+  [1m[36mScentSchedule Load (39.0ms)[0m  [1m[34mSELECT `scent_schedules`.* FROM `scent_schedules` WHERE (userid LIKE '%72%') ORDER BY `scent_schedules`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 226ms (Views: 0.7ms | ActiveRecord: 168.7ms)
+
+
+Started GET "/scent-schedules?filter%5Bquery%5D=72" for 127.0.0.1 at 2018-06-25 19:29:54 -0500
+Processing by ScentSchedulesController#index as API_JSON
+  Parameters: {"filter"=>{"query"=>"72"}}
+  [1m[36mScentSchedule Load (40.0ms)[0m  [1m[34mSELECT `scent_schedules`.* FROM `scent_schedules` WHERE (userid LIKE '%72%') ORDER BY `scent_schedules`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 88ms (Views: 0.4ms | ActiveRecord: 40.0ms)
+
+
+Started GET "/scent-schedules?filter%5Bquery%5D=72" for 127.0.0.1 at 2018-06-25 19:30:02 -0500
+Processing by ScentSchedulesController#index as API_JSON
+  Parameters: {"filter"=>{"query"=>"72"}}
+  [1m[36mScentSchedule Load (55.5ms)[0m  [1m[34mSELECT `scent_schedules`.* FROM `scent_schedules` WHERE (userid LIKE '%72%') ORDER BY `scent_schedules`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 101ms (Views: 0.5ms | ActiveRecord: 55.5ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2018-06-25 19:30:13 -0500
+Processing by SessionController#create as API_JSON
+  Parameters: {"password"=>"[FILTERED]", "email"=>"pearlsbeardoil@gmail.com"}
+  [1m[36mUser Load (65.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'pearlsbeardoil@gmail.com' LIMIT 1[0m
+Completed 200 OK in 171ms (Views: 0.2ms | ActiveRecord: 65.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:30:14 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (47.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 87ms (Views: 0.4ms | ActiveRecord: 47.1ms)
+
+
+Started GET "/scent-schedules?filter%5Bquery%5D=2" for 127.0.0.1 at 2018-06-25 19:30:22 -0500
+Processing by ScentSchedulesController#index as API_JSON
+  Parameters: {"filter"=>{"query"=>"2"}}
+  [1m[36mScentSchedule Load (44.4ms)[0m  [1m[34mSELECT `scent_schedules`.* FROM `scent_schedules` WHERE (userid LIKE '%2%') ORDER BY `scent_schedules`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 109ms (Views: 0.6ms | ActiveRecord: 44.4ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:30:28 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (44.4ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 165ms (Views: 1.2ms | ActiveRecord: 120.2ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:33:49 -0500
+Processing by ContactsController#index as API_JSON
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:33:49 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[35m (38.5ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (44.4ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mContact Load (38.7ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 410ms (Views: 0.6ms | ActiveRecord: 83.1ms)
+
+
+  [1m[36mUser Load (38.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 425ms (Views: 0.3ms | ActiveRecord: 77.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:34:24 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:34:24 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (48.2ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 90ms (Views: 0.4ms | ActiveRecord: 48.2ms)
+
+
+  [1m[36mUser Load (47.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 101ms (Views: 0.4ms | ActiveRecord: 47.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:34:52 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:34:52 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (48.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 99ms (Views: 0.2ms | ActiveRecord: 48.5ms)
+
+
+  [1m[36mContact Load (45.2ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 93ms (Views: 0.3ms | ActiveRecord: 45.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:35:05 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:35:05 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (38.6ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 82ms (Views: 0.3ms | ActiveRecord: 38.6ms)
+
+
+  [1m[36mUser Load (44.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 91ms (Views: 0.5ms | ActiveRecord: 44.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:35:45 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:35:45 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (48.3ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  [1m[36mUser Load (48.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering text template
+Completed 200 OK in 104ms (Views: 0.4ms | ActiveRecord: 48.4ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 98ms (Views: 2.1ms | ActiveRecord: 48.3ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:36:04 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:36:04 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (39.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 86ms (Views: 0.2ms | ActiveRecord: 39.8ms)
+
+
+  [1m[36mContact Load (42.4ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 83ms (Views: 0.4ms | ActiveRecord: 42.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:36:10 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:36:10 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (39.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 89ms (Views: 0.5ms | ActiveRecord: 39.6ms)
+
+
+  [1m[36mContact Load (36.0ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 85ms (Views: 0.4ms | ActiveRecord: 36.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:36:42 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:36:42 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (122.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 215ms (Views: 0.4ms | ActiveRecord: 122.8ms)
+
+
+  [1m[36mContact Load (75.4ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 283ms (Views: 0.7ms | ActiveRecord: 75.3ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:38:39 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:38:39 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (40.1ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 421ms (Views: 0.5ms | ActiveRecord: 40.1ms)
+
+
+  [1m[36mUser Load (35.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 437ms (Views: 0.2ms | ActiveRecord: 35.7ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:40:59 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:40:59 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (45.5ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  [1m[36mUser Load (46.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering text template
+Completed 200 OK in 443ms (Views: 0.2ms | ActiveRecord: 46.1ms)
+
+
+  Rendered text template (0.2ms)
+Completed 200 OK in 419ms (Views: 3.0ms | ActiveRecord: 45.5ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:41:53 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:41:53 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (37.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 90ms (Views: 0.4ms | ActiveRecord: 37.0ms)
+
+
+  [1m[36mContact Load (42.2ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 87ms (Views: 0.4ms | ActiveRecord: 42.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:42:22 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:42:22 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (52.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 100ms (Views: 9.5ms | ActiveRecord: 52.6ms)
+
+
+  [1m[36mContact Load (53.3ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 92ms (Views: 0.4ms | ActiveRecord: 53.3ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:43:16 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:43:16 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (51.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 91ms (Views: 0.4ms | ActiveRecord: 51.5ms)
+
+
+  [1m[36mContact Load (138.6ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 187ms (Views: 0.5ms | ActiveRecord: 138.6ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:44:29 -0500
+Processing by ContactsController#index as API_JSON
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:44:29 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (40.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 397ms (Views: 0.6ms | ActiveRecord: 40.9ms)
+
+
+  [1m[36mContact Load (43.0ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 415ms (Views: 0.6ms | ActiveRecord: 43.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:45:02 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:45:02 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (52.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 92ms (Views: 0.5ms | ActiveRecord: 52.5ms)
+
+
+  [1m[36mContact Load (36.6ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 91ms (Views: 0.5ms | ActiveRecord: 36.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:45:22 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:45:22 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (42.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 83ms (Views: 0.3ms | ActiveRecord: 42.2ms)
+
+
+  [1m[36mContact Load (42.3ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 83ms (Views: 0.7ms | ActiveRecord: 42.3ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:46:10 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:46:10 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (49.1ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  [1m[36mUser Load (49.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering text template
+Completed 200 OK in 131ms (Views: 0.4ms | ActiveRecord: 49.8ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 124ms (Views: 2.1ms | ActiveRecord: 49.1ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:47:31 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:47:31 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (38.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 427ms (Views: 0.3ms | ActiveRecord: 38.4ms)
+
+
+  [1m[36mContact Load (38.2ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 431ms (Views: 0.4ms | ActiveRecord: 38.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:49:24 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:49:24 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (40.3ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  [1m[36mUser Load (40.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering text template
+Completed 200 OK in 440ms (Views: 0.3ms | ActiveRecord: 40.9ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 431ms (Views: 2.4ms | ActiveRecord: 40.3ms)
+
+
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 19:49:48 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (38.3ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 175ms (Views: 0.7ms | ActiveRecord: 128.1ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:49:49 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (50.7ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 115ms (Views: 0.7ms | ActiveRecord: 50.7ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:50:28 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:50:28 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (46.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mContact Load (40.1ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+Completed 200 OK in 109ms (Views: 0.2ms | ActiveRecord: 46.5ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 100ms (Views: 1.0ms | ActiveRecord: 40.1ms)
+
+
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 19:50:41 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (39.9ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 82ms (Views: 0.7ms | ActiveRecord: 39.9ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:50:42 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (42.5ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 86ms (Views: 0.8ms | ActiveRecord: 42.5ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:51:31 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:51:31 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (44.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 95ms (Views: 0.3ms | ActiveRecord: 44.9ms)
+
+
+  [1m[36mContact Load (46.3ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 113ms (Views: 0.3ms | ActiveRecord: 46.3ms)
+
+
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 19:51:34 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (41.3ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 116ms (Views: 0.6ms | ActiveRecord: 41.3ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:51:35 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (36.7ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 83ms (Views: 0.6ms | ActiveRecord: 36.7ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:53:01 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:53:01 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (41.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mContact Load (36.9ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+Completed 200 OK in 482ms (Views: 0.6ms | ActiveRecord: 41.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 476ms (Views: 1.2ms | ActiveRecord: 36.9ms)
+
+
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 19:53:34 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (39.9ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.3ms)
+Completed 200 OK in 81ms (Views: 0.9ms | ActiveRecord: 39.9ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:53:35 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (45.4ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 98ms (Views: 0.9ms | ActiveRecord: 45.4ms)
+
+
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 19:53:36 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (42.9ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 105ms (Views: 0.6ms | ActiveRecord: 42.9ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:53:37 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (42.4ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 84ms (Views: 0.6ms | ActiveRecord: 42.4ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2018-06-25 19:54:37 -0500
+Processing by ContactsController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"barbershop"=>"Eclipse", "contact-person"=>"Eric", "phone-number"=>"555-555-5555", "email"=>"eric@eclipse.com", "call-log"=>"left a message", "website"=>"eclipse.com", "address"=>"640 Broadmor Blvd"}, "type"=>"contacts"}}
+  [1m[35m (36.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (36.8ms)[0m  [1m[32mINSERT INTO `contacts` (`barbershop`, `contact_person`, `phone_number`, `email`, `call_log`, `website`, `address`, `created_at`, `updated_at`) VALUES ('Eclipse', 'Eric', '555-555-5555', 'eric@eclipse.com', 'left a message', 'eclipse.com', '640 Broadmor Blvd', '2018-06-26 00:54:38', '2018-06-26 00:54:38')[0m
+  [1m[35m (39.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 497ms (Views: 0.9ms | ActiveRecord: 113.1ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:55:18 -0500
+Processing by ContactsController#index as API_JSON
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:55:18 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (46.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 100ms (Views: 0.5ms | ActiveRecord: 46.2ms)
+
+
+  [1m[36mContact Load (45.2ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 437ms (Views: 0.7ms | ActiveRecord: 45.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:55:50 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:55:50 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (60.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 126ms (Views: 0.2ms | ActiveRecord: 60.8ms)
+
+
+  [1m[36mContact Load (75.4ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 180ms (Views: 0.8ms | ActiveRecord: 75.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:56:00 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:56:00 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (48.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 90ms (Views: 0.6ms | ActiveRecord: 48.0ms)
+
+
+  [1m[36mContact Load (134.2ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.3ms)
+Completed 200 OK in 179ms (Views: 0.6ms | ActiveRecord: 134.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:57:48 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:57:48 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (38.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 424ms (Views: 0.3ms | ActiveRecord: 38.2ms)
+
+
+  [1m[36mContact Load (38.5ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 438ms (Views: 0.4ms | ActiveRecord: 38.5ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:58:30 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:58:30 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (102.6ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  [1m[36mUser Load (103.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering text template
+Completed 200 OK in 218ms (Views: 0.7ms | ActiveRecord: 103.2ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 211ms (Views: 5.4ms | ActiveRecord: 102.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:59:01 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:59:01 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (53.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 170ms (Views: 0.8ms | ActiveRecord: 53.3ms)
+
+
+  [1m[36mContact Load (108.1ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 221ms (Views: 0.5ms | ActiveRecord: 108.1ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:59:21 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:59:21 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (43.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 82ms (Views: 0.3ms | ActiveRecord: 43.0ms)
+
+
+  [1m[36mContact Load (41.4ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 80ms (Views: 0.3ms | ActiveRecord: 41.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:59:35 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:59:35 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (40.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 114ms (Views: 0.2ms | ActiveRecord: 40.5ms)
+
+
+  [1m[36mContact Load (46.1ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 111ms (Views: 0.3ms | ActiveRecord: 46.1ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 19:59:57 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 19:59:57 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (42.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 84ms (Views: 0.4ms | ActiveRecord: 42.7ms)
+
+
+  [1m[36mContact Load (51.7ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 115ms (Views: 0.5ms | ActiveRecord: 51.7ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:00:41 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:00:41 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (61.0ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  [1m[36mUser Load (61.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering text template
+Completed 200 OK in 347ms (Views: 0.3ms | ActiveRecord: 61.0ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 339ms (Views: 2.1ms | ActiveRecord: 61.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:02:17 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:02:17 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (40.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 592ms (Views: 0.5ms | ActiveRecord: 40.8ms)
+
+
+  [1m[36mContact Load (49.6ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 607ms (Views: 0.6ms | ActiveRecord: 49.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:02:39 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:02:40 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (47.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mContact Load (50.3ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+Completed 200 OK in 98ms (Views: 0.2ms | ActiveRecord: 47.5ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 91ms (Views: 1.0ms | ActiveRecord: 50.3ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:02:49 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:02:49 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (58.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mContact Load (54.9ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+Completed 200 OK in 131ms (Views: 0.2ms | ActiveRecord: 58.2ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 125ms (Views: 0.8ms | ActiveRecord: 54.9ms)
+
+
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:03:02 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (45.9ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 87ms (Views: 0.7ms | ActiveRecord: 45.9ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:03:03 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (41.3ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 88ms (Views: 0.4ms | ActiveRecord: 41.3ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2018-06-25 20:04:49 -0500
+Processing by ContactsController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"barbershop"=>"Wood Vikings", "contact-person"=>"Josh Bailey", "phone-number"=>"555-555-5555", "email"=>"josh@vikings.com", "call-log"=>"left a message", "website"=>"vikings.com", "address"=>"n/a"}, "type"=>"contacts"}}
+  [1m[35m (45.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (49.3ms)[0m  [1m[32mINSERT INTO `contacts` (`barbershop`, `contact_person`, `phone_number`, `email`, `call_log`, `website`, `address`, `created_at`, `updated_at`) VALUES ('Wood Vikings', 'Josh Bailey', '555-555-5555', 'josh@vikings.com', 'left a message', 'vikings.com', 'n/a', '2018-06-26 01:04:49', '2018-06-26 01:04:49')[0m
+  [1m[35m (49.8ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 625ms (Views: 0.6ms | ActiveRecord: 144.9ms)
+
+
+Started POST "/contacts" for 127.0.0.1 at 2018-06-25 20:05:26 -0500
+Processing by ContactsController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"barbershop"=>"Barbershop", "contact-person"=>"Derek Johnson", "phone-number"=>"555-555-5555", "email"=>"josh@barbershop.com", "call-log"=>"left a message", "website"=>"barbershop.com", "address"=>"n/a"}, "type"=>"contacts"}}
+  [1m[35m (40.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (45.4ms)[0m  [1m[32mINSERT INTO `contacts` (`barbershop`, `contact_person`, `phone_number`, `email`, `call_log`, `website`, `address`, `created_at`, `updated_at`) VALUES ('Barbershop', 'Derek Johnson', '555-555-5555', 'josh@barbershop.com', 'left a message', 'barbershop.com', 'n/a', '2018-06-26 01:05:26', '2018-06-26 01:05:26')[0m
+  [1m[35m (36.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 442ms (Views: 0.7ms | ActiveRecord: 122.3ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:06:13 -0500
+Processing by ContactsController#index as API_JSON
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:06:13 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (62.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 120ms (Views: 0.4ms | ActiveRecord: 62.9ms)
+
+
+  [1m[36mContact Load (84.8ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1060ms (Views: 0.4ms | ActiveRecord: 84.8ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:06:26 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:06:26 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (236.0ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  [1m[36mUser Load (238.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 432ms (Views: 0.3ms | ActiveRecord: 238.2ms)
+
+
+Completed 200 OK in 424ms (Views: 1.5ms | ActiveRecord: 236.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:06:48 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:06:48 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (39.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 84ms (Views: 0.2ms | ActiveRecord: 39.8ms)
+
+
+  [1m[36mContact Load (37.8ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 80ms (Views: 0.3ms | ActiveRecord: 37.8ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:07:08 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:07:08 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (41.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mContact Load (40.2ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+Completed 200 OK in 94ms (Views: 0.2ms | ActiveRecord: 41.0ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 88ms (Views: 0.8ms | ActiveRecord: 40.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:07:22 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:07:22 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (38.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 82ms (Views: 0.2ms | ActiveRecord: 38.5ms)
+
+
+  [1m[36mContact Load (41.7ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 104ms (Views: 0.3ms | ActiveRecord: 41.7ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:07:54 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:07:54 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (63.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 116ms (Views: 0.2ms | ActiveRecord: 63.5ms)
+
+
+  [1m[36mContact Load (64.5ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 112ms (Views: 0.6ms | ActiveRecord: 64.5ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:08:08 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:08:08 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (35.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 112ms (Views: 0.3ms | ActiveRecord: 35.7ms)
+
+
+  [1m[36mContact Load (43.8ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 115ms (Views: 0.4ms | ActiveRecord: 43.8ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:09:07 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:09:07 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (44.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mContact Load (42.9ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+Completed 200 OK in 108ms (Views: 0.2ms | ActiveRecord: 44.8ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 103ms (Views: 0.8ms | ActiveRecord: 42.9ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:09:10 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:09:10 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (52.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 99ms (Views: 0.2ms | ActiveRecord: 52.5ms)
+
+
+  [1m[36mContact Load (52.9ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 105ms (Views: 0.6ms | ActiveRecord: 52.9ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:09:58 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:09:58 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (42.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 87ms (Views: 0.3ms | ActiveRecord: 42.6ms)
+
+
+  [1m[36mContact Load (48.6ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 99ms (Views: 0.6ms | ActiveRecord: 48.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:10:07 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:10:07 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (44.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 95ms (Views: 0.3ms | ActiveRecord: 44.7ms)
+
+
+  [1m[36mContact Load (40.1ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 88ms (Views: 0.4ms | ActiveRecord: 40.1ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:10:12 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:10:12 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (41.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 115ms (Views: 0.5ms | ActiveRecord: 41.9ms)
+
+
+  [1m[36mContact Load (43.8ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 110ms (Views: 0.4ms | ActiveRecord: 43.8ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:11:32 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:11:32 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (33.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 420ms (Views: 0.3ms | ActiveRecord: 33.6ms)
+
+
+  [1m[36mContact Load (42.4ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 438ms (Views: 0.3ms | ActiveRecord: 42.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:11:34 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:11:34 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (44.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mContact Load (42.6ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+Completed 200 OK in 96ms (Views: 0.3ms | ActiveRecord: 44.1ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 90ms (Views: 0.7ms | ActiveRecord: 42.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:11:39 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:11:39 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (38.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 77ms (Views: 0.2ms | ActiveRecord: 38.9ms)
+
+
+  [1m[36mContact Load (55.0ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 104ms (Views: 0.5ms | ActiveRecord: 55.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:11:54 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:11:54 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (41.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 86ms (Views: 0.3ms | ActiveRecord: 41.4ms)
+
+
+  [1m[36mContact Load (39.7ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 83ms (Views: 0.4ms | ActiveRecord: 39.7ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:12:06 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:12:06 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (73.1ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  [1m[36mUser Load (73.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering text template
+Completed 200 OK in 133ms (Views: 0.2ms | ActiveRecord: 73.7ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 126ms (Views: 1.8ms | ActiveRecord: 73.1ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:12:12 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:12:12 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (61.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 107ms (Views: 0.5ms | ActiveRecord: 61.5ms)
+
+
+  [1m[36mContact Load (56.5ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 101ms (Views: 0.5ms | ActiveRecord: 56.5ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:13:17 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:13:17 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (37.1ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 397ms (Views: 0.7ms | ActiveRecord: 37.1ms)
+
+
+  [1m[36mUser Load (41.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 409ms (Views: 0.3ms | ActiveRecord: 41.7ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:13:56 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:13:56 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (292.6ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  [1m[36mUser Load (292.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering text template
+Completed 200 OK in 405ms (Views: 0.3ms | ActiveRecord: 292.7ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 397ms (Views: 2.1ms | ActiveRecord: 292.6ms)
+
+
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:14:00 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (49.1ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 167ms (Views: 0.6ms | ActiveRecord: 49.1ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:14:10 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (681.4ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 793ms (Views: 0.6ms | ActiveRecord: 681.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:14:38 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:14:38 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (39.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 86ms (Views: 0.3ms | ActiveRecord: 39.8ms)
+
+
+  [1m[36mContact Load (43.8ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 92ms (Views: 0.4ms | ActiveRecord: 43.8ms)
+
+
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:14:41 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (106.5ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 160ms (Views: 0.5ms | ActiveRecord: 106.5ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:14:43 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (279.8ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 417ms (Views: 0.7ms | ActiveRecord: 279.8ms)
+
+
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:14:44 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (64.1ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 165ms (Views: 0.6ms | ActiveRecord: 64.1ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:14:46 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (278.0ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 561ms (Views: 0.5ms | ActiveRecord: 278.0ms)
+
+
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:14:47 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (39.4ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 91ms (Views: 0.6ms | ActiveRecord: 39.4ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:14:48 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (140.3ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 201ms (Views: 0.4ms | ActiveRecord: 140.3ms)
+
+
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:14:52 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (39.6ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 80ms (Views: 0.5ms | ActiveRecord: 39.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:15:02 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:15:02 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (44.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 90ms (Views: 0.4ms | ActiveRecord: 44.0ms)
+
+
+  [1m[36mContact Load (38.6ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 83ms (Views: 0.7ms | ActiveRecord: 38.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:15:08 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:15:08 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (42.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 83ms (Views: 0.4ms | ActiveRecord: 42.6ms)
+
+
+  [1m[36mContact Load (38.9ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 95ms (Views: 0.6ms | ActiveRecord: 38.9ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:15:18 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:15:18 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (42.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 80ms (Views: 0.2ms | ActiveRecord: 42.5ms)
+
+
+  [1m[36mContact Load (52.3ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 90ms (Views: 0.4ms | ActiveRecord: 52.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:15:31 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:15:31 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (39.0ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 77ms (Views: 0.4ms | ActiveRecord: 39.0ms)
+
+
+  [1m[36mUser Load (43.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 89ms (Views: 0.3ms | ActiveRecord: 43.3ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:15:43 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:15:43 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (56.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mContact Load (56.4ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 154ms (Views: 0.3ms | ActiveRecord: 56.7ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 140ms (Views: 1.0ms | ActiveRecord: 56.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:16:01 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:16:01 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (39.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 82ms (Views: 0.3ms | ActiveRecord: 39.9ms)
+
+
+  [1m[36mContact Load (47.5ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 94ms (Views: 0.3ms | ActiveRecord: 47.5ms)
+
+
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:17:08 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:17:08 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (36.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 448ms (Views: 0.3ms | ActiveRecord: 36.5ms)
+
+
+  [1m[36mContact Load (37.7ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 467ms (Views: 0.3ms | ActiveRecord: 37.7ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:17:16 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:17:16 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (251.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 302ms (Views: 0.5ms | ActiveRecord: 251.7ms)
+
+
+  [1m[36mContact Load (256.1ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 496ms (Views: 0.5ms | ActiveRecord: 256.1ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:17:35 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:17:35 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (47.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 109ms (Views: 0.3ms | ActiveRecord: 47.6ms)
+
+
+  [1m[36mContact Load (54.4ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 104ms (Views: 0.5ms | ActiveRecord: 54.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:17:50 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:17:50 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (66.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 125ms (Views: 0.4ms | ActiveRecord: 66.7ms)
+
+
+  [1m[36mContact Load (48.9ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 145ms (Views: 1.1ms | ActiveRecord: 48.9ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:18:01 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:18:01 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (60.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[36mContact Load (50.0ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+Completed 200 OK in 107ms (Views: 0.4ms | ActiveRecord: 60.9ms)
+
+
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 98ms (Views: 1.0ms | ActiveRecord: 50.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:20:08 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:20:08 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (39.1ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 523ms (Views: 0.5ms | ActiveRecord: 39.1ms)
+
+
+  [1m[36mUser Load (43.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 578ms (Views: 0.2ms | ActiveRecord: 43.8ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:20:14 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:20:14 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (53.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 97ms (Views: 0.4ms | ActiveRecord: 53.6ms)
+
+
+  [1m[36mContact Load (40.2ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 82ms (Views: 0.4ms | ActiveRecord: 40.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:21:59 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:21:59 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (33.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 391ms (Views: 0.3ms | ActiveRecord: 33.9ms)
+
+
+  [1m[36mContact Load (39.5ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 383ms (Views: 0.5ms | ActiveRecord: 39.5ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:22:08 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (43.8ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 86ms (Views: 0.4ms | ActiveRecord: 43.8ms)
+
+
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:22:10 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (39.9ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 85ms (Views: 0.6ms | ActiveRecord: 39.9ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:22:14 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (41.7ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 87ms (Views: 0.3ms | ActiveRecord: 41.7ms)
+
+
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:22:18 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (38.8ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 87ms (Views: 0.4ms | ActiveRecord: 38.8ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:22:19 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (42.1ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 101ms (Views: 0.3ms | ActiveRecord: 42.1ms)
+
+
+Started GET "/contacts/22" for 127.0.0.1 at 2018-06-25 20:22:20 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"22"}
+  [1m[36mContact Load (51.4ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 22 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 113ms (Views: 0.7ms | ActiveRecord: 51.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:22:55 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/22" for 127.0.0.1 at 2018-06-25 20:22:55 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"22"}
+  [1m[36mUser Load (74.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 119ms (Views: 0.5ms | ActiveRecord: 74.6ms)
+
+
+  [1m[36mContact Load (67.3ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 22 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 112ms (Views: 0.5ms | ActiveRecord: 67.3ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:24:08 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (50.5ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 417ms (Views: 0.4ms | ActiveRecord: 50.5ms)
+
+
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:24:10 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (36.9ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 360ms (Views: 0.5ms | ActiveRecord: 36.9ms)
+
+
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:24:15 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (74.8ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 118ms (Views: 0.6ms | ActiveRecord: 74.8ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:24:16 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (59.2ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 100ms (Views: 0.4ms | ActiveRecord: 59.2ms)
+
+
+Started GET "/contacts/22" for 127.0.0.1 at 2018-06-25 20:24:20 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"22"}
+  [1m[36mContact Load (62.2ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 22 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 140ms (Views: 0.6ms | ActiveRecord: 62.2ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:24:23 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (42.1ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 92ms (Views: 0.5ms | ActiveRecord: 42.1ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:24:51 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:24:51 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (40.6ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 99ms (Views: 0.5ms | ActiveRecord: 40.6ms)
+
+
+  [1m[36mUser Load (45.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 110ms (Views: 0.3ms | ActiveRecord: 45.2ms)
+
+
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:24:52 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (58.1ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 105ms (Views: 0.6ms | ActiveRecord: 58.1ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:25:13 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:25:13 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (70.9ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 116ms (Views: 0.4ms | ActiveRecord: 70.9ms)
+
+
+  [1m[36mUser Load (82.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 130ms (Views: 0.2ms | ActiveRecord: 82.1ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:25:34 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:25:34 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (37.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 76ms (Views: 0.3ms | ActiveRecord: 37.3ms)
+
+
+  [1m[36mContact Load (42.1ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 88ms (Views: 0.3ms | ActiveRecord: 42.1ms)
+
+
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:27:10 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:27:10 -0500
+Processing by UsersController#show_current as API_JSON
+  [1m[36mUser Load (37.0ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 324ms (Views: 0.4ms | ActiveRecord: 37.0ms)
+
+
+  [1m[36mContact Load (39.2ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 360ms (Views: 0.6ms | ActiveRecord: 39.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:27:14 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:27:14 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (39.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 81ms (Views: 0.3ms | ActiveRecord: 39.9ms)
+
+
+  [1m[36mContact Load (39.4ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 78ms (Views: 0.4ms | ActiveRecord: 39.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:27:23 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:27:23 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (39.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 80ms (Views: 0.2ms | ActiveRecord: 39.7ms)
+
+
+  [1m[36mContact Load (39.8ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 78ms (Views: 0.3ms | ActiveRecord: 39.8ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:27:59 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (38.5ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 80ms (Views: 0.4ms | ActiveRecord: 38.5ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:28:03 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:28:03 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mUser Load (42.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 83ms (Views: 0.2ms | ActiveRecord: 42.8ms)
+
+
+  [1m[36mContact Load (44.9ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 85ms (Views: 0.4ms | ActiveRecord: 44.9ms)
+
+
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:28:05 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (67.5ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 133ms (Views: 0.4ms | ActiveRecord: 67.5ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:28:12 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (47.9ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 91ms (Views: 0.4ms | ActiveRecord: 47.9ms)
+
+
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:28:16 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (51.3ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 100ms (Views: 0.5ms | ActiveRecord: 51.3ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:28:37 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:28:37 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (56.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 96ms (Views: 0.5ms | ActiveRecord: 56.2ms)
+
+
+  [1m[36mContact Load (76.3ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 130ms (Views: 0.4ms | ActiveRecord: 76.2ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:28:47 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:28:47 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (97.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 141ms (Views: 0.4ms | ActiveRecord: 97.7ms)
+
+
+  [1m[36mContact Load (77.4ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 131ms (Views: 0.5ms | ActiveRecord: 77.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:29:13 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:29:13 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (42.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 88ms (Views: 0.5ms | ActiveRecord: 42.4ms)
+
+
+  [1m[36mContact Load (36.5ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 81ms (Views: 0.4ms | ActiveRecord: 36.5ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:29:28 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (47.2ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 87ms (Views: 0.3ms | ActiveRecord: 47.2ms)
+
+
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:29:40 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (118.8ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 209ms (Views: 0.6ms | ActiveRecord: 118.8ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:29:51 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (44.7ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 90ms (Views: 0.3ms | ActiveRecord: 44.7ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:31:01 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:31:01 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (159.9ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  [1m[36mUser Load (159.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering text template
+Completed 200 OK in 637ms (Views: 0.3ms | ActiveRecord: 159.9ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 627ms (Views: 1.9ms | ActiveRecord: 159.9ms)
+
+
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:31:04 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (51.7ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 101ms (Views: 0.6ms | ActiveRecord: 51.7ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:33:02 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:33:02 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (49.0ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  [1m[36mUser Load (49.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendering text template
+Completed 200 OK in 484ms (Views: 0.3ms | ActiveRecord: 49.5ms)
+
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 478ms (Views: 2.2ms | ActiveRecord: 49.0ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:33:07 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:33:07 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mUser Load (45.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 94ms (Views: 0.3ms | ActiveRecord: 45.1ms)
+
+
+  [1m[36mBarbershopInventory Load (36.7ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 94ms (Views: 0.4ms | ActiveRecord: 36.7ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:33:20 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:33:20 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mUser Load (49.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 90ms (Views: 0.3ms | ActiveRecord: 49.7ms)
+
+
+  [1m[36mBarbershopInventory Load (43.9ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 86ms (Views: 0.4ms | ActiveRecord: 43.9ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:33:36 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:33:36 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mBarbershopInventory Load (65.5ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  [1m[36mUser Load (66.9ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 128ms (Views: 0.2ms | ActiveRecord: 66.9ms)
+
+
+Completed 200 OK in 119ms (Views: 1.4ms | ActiveRecord: 65.5ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:33:58 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:33:58 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mUser Load (39.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 85ms (Views: 0.5ms | ActiveRecord: 39.8ms)
+
+
+  [1m[36mBarbershopInventory Load (41.2ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 89ms (Views: 0.4ms | ActiveRecord: 41.2ms)
+
+
+Started POST "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:34:30 -0500
+Processing by BarbershopInventoriesController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"delivery-date"=>"06/25/2018", "barbershop-name"=>"Another Barbershop", "beardbark"=>20, "sandycheeks"=>10, "comments"=>"hand delivered", "contact-person"=>"Charles", "total-beard-oils-delivered"=>30}, "type"=>"barbershop-inventories"}}
+  [1m[35m (41.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (39.3ms)[0m  [1m[32mINSERT INTO `barbershop_inventories` (`delivery_date`, `barbershop_name`, `beardbark`, `sandycheeks`, `comments`, `contact_person`, `total_beard_oils_delivered`, `created_at`, `updated_at`) VALUES ('06/25/2018', 'Another Barbershop', 20, 10, 'hand delivered', 'Charles', 30, '2018-06-26 01:34:30', '2018-06-26 01:34:30')[0m
+  [1m[35m (37.2ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 170ms (Views: 0.6ms | ActiveRecord: 117.6ms)
+
+
+Started POST "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:34:36 -0500
+Processing by BarbershopInventoriesController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"delivery-date"=>"06/25/2018", "barbershop-name"=>"Another Barbershop", "beardbark"=>20, "sandycheeks"=>10, "comments"=>"hand delivered", "contact-person"=>"Charles", "total-beard-oils-delivered"=>30}, "type"=>"barbershop-inventories"}}
+  [1m[35m (46.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (37.4ms)[0m  [1m[32mINSERT INTO `barbershop_inventories` (`delivery_date`, `barbershop_name`, `beardbark`, `sandycheeks`, `comments`, `contact_person`, `total_beard_oils_delivered`, `created_at`, `updated_at`) VALUES ('06/25/2018', 'Another Barbershop', 20, 10, 'hand delivered', 'Charles', 30, '2018-06-26 01:34:36', '2018-06-26 01:34:36')[0m
+  [1m[35m (39.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 170ms (Views: 0.6ms | ActiveRecord: 123.4ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:35:52 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:35:52 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mUser Load (40.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 449ms (Views: 0.5ms | ActiveRecord: 40.1ms)
+
+
+  [1m[36mBarbershopInventory Load (41.5ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 444ms (Views: 0.4ms | ActiveRecord: 41.5ms)
+
+
+Started POST "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:36:00 -0500
+Processing by BarbershopInventoriesController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"delivery-date"=>"", "barbershop-name"=>"shop", "beardbark"=>nil, "sandycheeks"=>nil, "comments"=>"", "contact-person"=>"", "total-beard-oils-delivered"=>nil}, "type"=>"barbershop-inventories"}}
+  [1m[35m (39.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (42.2ms)[0m  [1m[32mINSERT INTO `barbershop_inventories` (`delivery_date`, `barbershop_name`, `comments`, `contact_person`, `created_at`, `updated_at`) VALUES ('', 'shop', '', '', '2018-06-26 01:36:00', '2018-06-26 01:36:00')[0m
+  [1m[35m (42.8ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 170ms (Views: 0.6ms | ActiveRecord: 124.6ms)
+
+
+Started POST "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:36:03 -0500
+Processing by BarbershopInventoriesController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"delivery-date"=>"", "barbershop-name"=>"shop", "beardbark"=>nil, "sandycheeks"=>nil, "comments"=>"", "contact-person"=>"", "total-beard-oils-delivered"=>nil}, "type"=>"barbershop-inventories"}}
+  [1m[35m (40.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (84.2ms)[0m  [1m[32mINSERT INTO `barbershop_inventories` (`delivery_date`, `barbershop_name`, `comments`, `contact_person`, `created_at`, `updated_at`) VALUES ('', 'shop', '', '', '2018-06-26 01:36:03', '2018-06-26 01:36:03')[0m
+  [1m[35m (40.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 221ms (Views: 0.6ms | ActiveRecord: 165.5ms)
+
+
+Started POST "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:36:10 -0500
+Processing by BarbershopInventoriesController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"delivery-date"=>"", "barbershop-name"=>"shop", "beardbark"=>nil, "sandycheeks"=>nil, "comments"=>"", "contact-person"=>"", "total-beard-oils-delivered"=>nil}, "type"=>"barbershop-inventories"}}
+  [1m[35m (38.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (41.4ms)[0m  [1m[32mINSERT INTO `barbershop_inventories` (`delivery_date`, `barbershop_name`, `comments`, `contact_person`, `created_at`, `updated_at`) VALUES ('', 'shop', '', '', '2018-06-26 01:36:10', '2018-06-26 01:36:10')[0m
+  [1m[35m (34.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 176ms (Views: 0.4ms | ActiveRecord: 114.3ms)
+
+
+Started POST "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:36:11 -0500
+Processing by BarbershopInventoriesController#create as API_JSON
+  Parameters: {"data"=>{"attributes"=>{"delivery-date"=>"", "barbershop-name"=>"shop", "beardbark"=>nil, "sandycheeks"=>nil, "comments"=>"", "contact-person"=>"", "total-beard-oils-delivered"=>nil}, "type"=>"barbershop-inventories"}}
+  [1m[35m (42.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (47.5ms)[0m  [1m[32mINSERT INTO `barbershop_inventories` (`delivery_date`, `barbershop_name`, `comments`, `contact_person`, `created_at`, `updated_at`) VALUES ('', 'shop', '', '', '2018-06-26 01:36:11', '2018-06-26 01:36:11')[0m
+  [1m[35m (39.8ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 201 Created in 186ms (Views: 0.4ms | ActiveRecord: 130.0ms)
+
+
+Started DELETE "/barbershop-inventories/42" for 127.0.0.1 at 2018-06-25 20:36:13 -0500
+Processing by BarbershopInventoriesController#destroy as API_JSON
+  Parameters: {"id"=>"42"}
+  [1m[35m (39.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBarbershopInventory Load (39.0ms)[0m  [1m[34mSELECT  `barbershop_inventories`.* FROM `barbershop_inventories` WHERE `barbershop_inventories`.`id` = 42 ORDER BY `barbershop_inventories`.`id` ASC LIMIT 1[0m
+  [1m[35mSQL (240.8ms)[0m  [1m[31mDELETE FROM `barbershop_inventories` WHERE `barbershop_inventories`.`id` = 42[0m
+  [1m[35m (35.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 204 No Content in 405ms (Views: 0.7ms | ActiveRecord: 355.0ms)
+
+
+Started DELETE "/barbershop-inventories/52" for 127.0.0.1 at 2018-06-25 20:36:14 -0500
+Processing by BarbershopInventoriesController#destroy as API_JSON
+  Parameters: {"id"=>"52"}
+  [1m[35m (50.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBarbershopInventory Load (36.1ms)[0m  [1m[34mSELECT  `barbershop_inventories`.* FROM `barbershop_inventories` WHERE `barbershop_inventories`.`id` = 52 ORDER BY `barbershop_inventories`.`id` ASC LIMIT 1[0m
+  [1m[35mSQL (39.2ms)[0m  [1m[31mDELETE FROM `barbershop_inventories` WHERE `barbershop_inventories`.`id` = 52[0m
+  [1m[35m (40.1ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 204 No Content in 227ms (Views: 0.6ms | ActiveRecord: 166.1ms)
+
+
+Started DELETE "/barbershop-inventories/62" for 127.0.0.1 at 2018-06-25 20:36:15 -0500
+Processing by BarbershopInventoriesController#destroy as API_JSON
+  Parameters: {"id"=>"62"}
+  [1m[35m (42.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBarbershopInventory Load (40.4ms)[0m  [1m[34mSELECT  `barbershop_inventories`.* FROM `barbershop_inventories` WHERE `barbershop_inventories`.`id` = 62 ORDER BY `barbershop_inventories`.`id` ASC LIMIT 1[0m
+  [1m[35mSQL (34.6ms)[0m  [1m[31mDELETE FROM `barbershop_inventories` WHERE `barbershop_inventories`.`id` = 62[0m
+  [1m[35m (45.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 204 No Content in 210ms (Views: 0.6ms | ActiveRecord: 163.6ms)
+
+
+Started GET "/users/me" for 127.0.0.1 at 2018-06-25 20:36:57 -0500
+Processing by UsersController#show_current as API_JSON
+Started GET "/barbershop-inventories" for 127.0.0.1 at 2018-06-25 20:36:57 -0500
+Processing by BarbershopInventoriesController#index as API_JSON
+  [1m[36mUser Load (44.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 85ms (Views: 0.3ms | ActiveRecord: 44.4ms)
+
+
+  [1m[36mBarbershopInventory Load (45.5ms)[0m  [1m[34mSELECT `barbershop_inventories`.* FROM `barbershop_inventories` ORDER BY `barbershop_inventories`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 88ms (Views: 0.4ms | ActiveRecord: 45.5ms)
+
+
+Started DELETE "/barbershop-inventories/72" for 127.0.0.1 at 2018-06-25 20:37:12 -0500
+Processing by BarbershopInventoriesController#destroy as API_JSON
+  Parameters: {"id"=>"72"}
+  [1m[35m (62.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBarbershopInventory Load (38.6ms)[0m  [1m[34mSELECT  `barbershop_inventories`.* FROM `barbershop_inventories` WHERE `barbershop_inventories`.`id` = 72 ORDER BY `barbershop_inventories`.`id` ASC LIMIT 1[0m
+  [1m[35mSQL (48.3ms)[0m  [1m[31mDELETE FROM `barbershop_inventories` WHERE `barbershop_inventories`.`id` = 72[0m
+  [1m[35m (35.4ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 204 No Content in 236ms (Views: 0.4ms | ActiveRecord: 184.3ms)
+
+
+Started DELETE "/barbershop-inventories/32" for 127.0.0.1 at 2018-06-25 20:37:13 -0500
+Processing by BarbershopInventoriesController#destroy as API_JSON
+  Parameters: {"id"=>"32"}
+  [1m[35m (45.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBarbershopInventory Load (75.2ms)[0m  [1m[34mSELECT  `barbershop_inventories`.* FROM `barbershop_inventories` WHERE `barbershop_inventories`.`id` = 32 ORDER BY `barbershop_inventories`.`id` ASC LIMIT 1[0m
+  [1m[35mSQL (91.4ms)[0m  [1m[31mDELETE FROM `barbershop_inventories` WHERE `barbershop_inventories`.`id` = 32[0m
+  [1m[35m (39.0ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 204 No Content in 423ms (Views: 0.7ms | ActiveRecord: 250.7ms)
+
+
+Started DELETE "/barbershop-inventories/22" for 127.0.0.1 at 2018-06-25 20:37:14 -0500
+Processing by BarbershopInventoriesController#destroy as API_JSON
+  Parameters: {"id"=>"22"}
+  [1m[35m (50.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBarbershopInventory Load (55.6ms)[0m  [1m[34mSELECT  `barbershop_inventories`.* FROM `barbershop_inventories` WHERE `barbershop_inventories`.`id` = 22 ORDER BY `barbershop_inventories`.`id` ASC LIMIT 1[0m
+  [1m[35mSQL (39.8ms)[0m  [1m[31mDELETE FROM `barbershop_inventories` WHERE `barbershop_inventories`.`id` = 22[0m
+  [1m[35m (51.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 204 No Content in 272ms (Views: 0.5ms | ActiveRecord: 197.4ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2018-06-25 20:37:19 -0500
+Processing by ContactsController#index as API_JSON
+  [1m[36mContact Load (66.0ms)[0m  [1m[34mSELECT `contacts`.* FROM `contacts` ORDER BY `contacts`.`id` ASC[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 117ms (Views: 0.7ms | ActiveRecord: 66.0ms)
+
+
+Started GET "/contacts/12" for 127.0.0.1 at 2018-06-25 20:37:23 -0500
+Processing by ContactsController#show as API_JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mContact Load (128.1ms)[0m  [1m[34mSELECT  `contacts`.* FROM `contacts` WHERE `contacts`.`id` = 12 ORDER BY `contacts`.`id` ASC LIMIT 1[0m
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 176ms (Views: 0.5ms | ActiveRecord: 128.1ms)
+
+
+  [1m[35m (133.7ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (107.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (87.6ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (53.3ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (112.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (43.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (62.0ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (105.3ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (56.3ms)[0m  [1m[31mROLLBACK[0m
