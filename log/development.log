@@ -34279,3 +34279,12 @@ Processing by UsersController#show_current as API_JSON
 Completed 200 OK in 164ms (Views: 0.2ms | ActiveRecord: 83.0ms)
 
 
+  [1m[35m (150.2ms)[0m  [1m[35mSET  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (71.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (91.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (95.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (84.9ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (78.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (176.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` IS NULL LIMIT 1[0m
+  [1m[36mUser Exists (860.7ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  [1m[35m (109.1ms)[0m  [1m[31mROLLBACK[0m
