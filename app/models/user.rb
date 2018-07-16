@@ -1,6 +1,7 @@
 require 'bcrypt'
 
 class User < ApplicationRecord
+  has_one :scentSchedule
 # this will read the password and access it
   attr_reader :password
   attr_accessor :password_confirmation

@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180622010622) do
+ActiveRecord::Schema.define(version: 20180716003932) do
 
-  create_table "barbershop_inventories", force: :cascade do |t|
+  create_table "barbershop_inventories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "delivery_date"
     t.string "barbershop_name"
     t.integer "beardbark"
@@ -24,15 +24,15 @@ ActiveRecord::Schema.define(version: 20180622010622) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "charges", force: :cascade do |t|
-    t.float "amount"
+  create_table "charges", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.float "amount", limit: 24
     t.string "description"
     t.string "currency"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "contacts", force: :cascade do |t|
+  create_table "contacts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "barbershop"
     t.string "contact_person"
     t.string "phone_number"
@@ -44,7 +44,7 @@ ActiveRecord::Schema.define(version: 20180622010622) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "customers", force: :cascade do |t|
+  create_table "customers", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.integer "account_balance"
     t.integer "business_vat_id"
     t.string "coupon"
@@ -59,27 +59,15 @@ ActiveRecord::Schema.define(version: 20180622010622) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "scent_schedules", force: :cascade do |t|
-    t.string "jan"
-    t.string "feb"
-    t.string "mar"
-    t.string "apr"
-    t.string "may"
-    t.string "jun"
-    t.string "jul"
-    t.string "aug"
-    t.string "sept"
-    t.string "oct"
-    t.string "nov"
-    t.string "dec"
-    t.string "userid"
+  create_table "scent_schedules", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "scent"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "user_id"
+    t.bigint "user_id"
     t.index ["user_id"], name: "index_scent_schedules_on_user_id"
   end
 
-  create_table "users", force: :cascade do |t|
+  create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "email"
     t.string "username"
     t.string "password_digest"
@@ -90,4 +78,5 @@ ActiveRecord::Schema.define(version: 20180622010622) do
     t.boolean "customer"
   end
 
+  add_foreign_key "scent_schedules", "users"
 end
