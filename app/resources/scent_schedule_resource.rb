@@ -1,5 +1,5 @@
 class ScentScheduleResource < JSONAPI::Resource
-  attributes :scent
+  attributes :scent, :user_id
 
   filters :query
 
