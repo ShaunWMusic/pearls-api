@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sandycheeks: 1
+  beardbark: 1
+  totalbottles: 1
+  date: 2018-08-01 17:59:31
+
+two:
+  sandycheeks: 1
+  beardbark: 1
+  totalbottles: 1
+  date: 2018-08-01 17:59:31

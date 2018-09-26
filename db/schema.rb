@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180716003932) do
+ActiveRecord::Schema.define(version: 20180924022028) do
 
   create_table "barbershop_inventories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "delivery_date"
@@ -57,6 +57,28 @@ ActiveRecord::Schema.define(version: 20180716003932) do
     t.string "source"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "token"
+    t.string "card"
+  end
+
+  create_table "oilinventories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.integer "sandycheeks"
+    t.integer "beardbark"
+    t.integer "totalbottles"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "plans", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "currency"
+    t.string "interval"
+    t.string "product"
+    t.string "amount"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "customer_id"
+    t.string "email"
+    t.index ["customer_id"], name: "index_plans_on_customer_id"
   end
 
   create_table "scent_schedules", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -67,7 +89,19 @@ ActiveRecord::Schema.define(version: 20180716003932) do
     t.index ["user_id"], name: "index_scent_schedules_on_user_id"
   end
 
+  create_table "subscriptions", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.bigint "customer_id"
+    t.string "billing"
+    t.string "billing_cycle_anchor"
+    t.string "coupon"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "item"
+    t.string "email"
+  end
+
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "scent"
     t.string "email"
     t.string "username"
     t.string "password_digest"
@@ -76,7 +110,14 @@ ActiveRecord::Schema.define(version: 20180716003932) do
     t.boolean "admin"
     t.boolean "barbershop"
     t.boolean "customer"
+    t.bigint "customer_id"
+    t.bigint "plan_id"
+    t.index ["customer_id"], name: "index_users_on_customer_id"
+    t.index ["plan_id"], name: "index_users_on_plan_id"
   end
 
+  add_foreign_key "plans", "customers"
   add_foreign_key "scent_schedules", "users"
+  add_foreign_key "users", "customers"
+  add_foreign_key "users", "plans"
 end

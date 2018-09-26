@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer: 
+  billing: MyString
+  billing_cycle_anchor: MyString
+  coupon: MyString
+
+two:
+  customer: 
+  billing: MyString
+  billing_cycle_anchor: MyString
+  coupon: MyString

@@ -17,6 +17,8 @@ gem 'rails', '~> 5.1.5'
   gem 'mysql2', '~> 0.3.18'
 # end
 
+gem 'pry-rails'
+
 gem 'dotenv-rails'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 

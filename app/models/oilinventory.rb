@@ -1,0 +1,2 @@
+class Oilinventory < ApplicationRecord
+end
