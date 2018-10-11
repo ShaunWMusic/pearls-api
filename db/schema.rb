@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180924022028) do
+ActiveRecord::Schema.define(version: 20181011141715) do
 
   create_table "barbershop_inventories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "delivery_date"
@@ -53,12 +53,12 @@ ActiveRecord::Schema.define(version: 20180924022028) do
     t.string "email"
     t.string "invoice_prefix"
     t.string "metadata"
-    t.string "shipping"
     t.string "source"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "token"
     t.string "card"
+    t.string "username"
   end
 
   create_table "oilinventories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -110,14 +110,11 @@ ActiveRecord::Schema.define(version: 20180924022028) do
     t.boolean "admin"
     t.boolean "barbershop"
     t.boolean "customer"
-    t.bigint "customer_id"
     t.bigint "plan_id"
-    t.index ["customer_id"], name: "index_users_on_customer_id"
     t.index ["plan_id"], name: "index_users_on_plan_id"
   end
 
   add_foreign_key "plans", "customers"
   add_foreign_key "scent_schedules", "users"
-  add_foreign_key "users", "customers"
   add_foreign_key "users", "plans"
 end

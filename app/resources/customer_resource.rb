@@ -1,12 +1,11 @@
 require "stripe"
 
 class CustomerResource < JSONAPI::Resource
-  attributes :account_balance, :business_vat_id, :coupon, :default_source, :description, :email, :invoice_prefix, :metadata, :shipping, :source, :token, :card
+  attributes :account_balance, :business_vat_id, :coupon, :default_source, :description, :email, :invoice_prefix, :metadata, :source, :token, :card, :username
    before_save do
         stripe = Stripe.api_key = ENV['SECRET_TEST_KEY']
         # Token is created using Checkout or Elements!
         # Get the payment token ID submitted by the form:
-        
         token = @model.token
         create_customer =  Stripe::Customer.create( :description => "Customer for Pearls Beard Oil", :source => token, :email => email )
         @model.source = create_customer.id
@@ -15,8 +14,10 @@ class CustomerResource < JSONAPI::Resource
         plan = Plan.new
         plan.email = email
         plan.save
-        
-        # binding.pry
+        newuser = @model
+        binding.pry
+        mail = NewUserMailer.New_user(newuser) if @model.new_record?
+        mail.deliver_now if @model.new_record?
         @model.save
         # plan.email = email
         # customer_id = create_customer.id

@@ -12,8 +12,6 @@ class UserResource < JSONAPI::Resource
     product = Plan.where('id = ?', id).pluck(:product)
     @model.scent = product[0]
     # binding.pry
-    mail = NewUserMailer.New_user(newuser) if @model.new_record?
-    mail.deliver_now if @model.new_record?
     @model.save
   end
 
