@@ -5,7 +5,7 @@ class SubscriptionResource < JSONAPI::Resource
 
 
     before_save do 
-        stripe = Stripe.api_key
+        stripe = Stripe.api_key = ENV['SECRET_KEY']
         plan_id = @model.customer_id
         findplan = Plan.where(id: plan_id).pluck(:product, :id, :customer_id)
         product = findplan[0].first

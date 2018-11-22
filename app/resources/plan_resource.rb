@@ -3,7 +3,7 @@ class PlanResource < JSONAPI::Resource
     attributes :currency, :interval, :product, :amount, :customer_id, :email
       
     before_save do 
-        stripe = Stripe.api_key
+        stripe = Stripe.api_key = ENV['SECRET_KEY']
         id = @model.customer_id
         # binding.pry
         # findplan = Plan.find_by!(customer_id: id) 
