@@ -1,9 +1,16 @@
-Rails.application.routes.draw do
+Rails.application.routes.draw do  
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get "/", to: "status#index"
   post "/session", to: "session#create"
   get "/users/me", to: "users#show_current"
   
+  # Reset Password
+  jsonapi_resources :forgot_passwords
+
+  # Create Account
+  jsonapi_resources :new_accounts
+
+  # Admin access
   jsonapi_resources :contacts
   jsonapi_resources :scent_schedules
   jsonapi_resources :barbershop_inventories

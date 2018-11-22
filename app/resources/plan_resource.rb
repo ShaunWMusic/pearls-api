@@ -8,7 +8,6 @@ class PlanResource < JSONAPI::Resource
         # findplan = Plan.find_by!(customer_id: id) 
         # @model.product = findplan.product 
         user = User.new
-        user.plan_id = id
         plan = @model.product
         plan.gsub!(/\ +/, '-')
         plan = Stripe::Plan.retrieve(plan)

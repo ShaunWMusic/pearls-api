@@ -15,7 +15,7 @@ class SubscriptionResource < JSONAPI::Resource
         source = Customer.where(id: customer_id).pluck(:source)
         
         plan = Stripe::Plan.retrieve(product)
-        Stripe::Subscription.create( :customer => source[0], :items => [{ :plan => plan.id}])
+        Stripe::Subscription.create( :customer => source[0], :items => [{ :plan => plan.id}], :coupon => "black-friday")
 
         # customer_id = Customer.find_by!(email: email).pluck(:id)
         # customer =  Stripe::Customer.create( :description => "Customer for Pearls Beard Oil", :source => "tok_visa", :email => email )

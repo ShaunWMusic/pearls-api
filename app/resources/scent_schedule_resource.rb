@@ -1,6 +1,5 @@
 class ScentScheduleResource < JSONAPI::Resource
   attributes :scent, :user_id
-
   filters :query
 
   before_save do

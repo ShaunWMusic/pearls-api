@@ -1,0 +1,2 @@
+class ForgotPasswordsController < ApplicationController
+end

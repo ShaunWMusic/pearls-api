@@ -1,0 +1,2 @@
+class NewAccountsController < ApplicationController
+  end

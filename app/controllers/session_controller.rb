@@ -9,7 +9,7 @@ class SessionController < ApplicationController
       user = User.find_by!(email: email)
 
       if BCrypt::Password.new(user.password_digest) == password
-      data = {id: user.id, username: user.username, email: user.email}
+      data = {id: user.id, email: user.email}
       payload = {data: data, sub: user.id, exp: Time.now.to_i + 2 * 3600}
 
       token = JWT.encode payload, JWT_SECRET, "HS512"

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181011141715) do
+ActiveRecord::Schema.define(version: 20181107004122) do
 
   create_table "barbershop_inventories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "delivery_date"
@@ -59,6 +59,28 @@ ActiveRecord::Schema.define(version: 20181011141715) do
     t.string "token"
     t.string "card"
     t.string "username"
+    t.bigint "user_id"
+    t.index ["user_id"], name: "index_customers_on_user_id"
+  end
+
+  create_table "forgot_passwords", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "email"
+    t.string "password_digest"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "user_id"
+    t.string "token"
+    t.index ["user_id"], name: "index_forgot_passwords_on_user_id"
+  end
+
+  create_table "new_accounts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "email"
+    t.string "password_digest"
+    t.string "token"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "user_id"
+    t.index ["user_id"], name: "index_new_accounts_on_user_id"
   end
 
   create_table "oilinventories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -110,11 +132,11 @@ ActiveRecord::Schema.define(version: 20181011141715) do
     t.boolean "admin"
     t.boolean "barbershop"
     t.boolean "customer"
-    t.bigint "plan_id"
-    t.index ["plan_id"], name: "index_users_on_plan_id"
   end
 
+  add_foreign_key "customers", "users"
+  add_foreign_key "forgot_passwords", "users"
+  add_foreign_key "new_accounts", "users"
   add_foreign_key "plans", "customers"
   add_foreign_key "scent_schedules", "users"
-  add_foreign_key "users", "plans"
 end
