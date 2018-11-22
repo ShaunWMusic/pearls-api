@@ -1,4 +1,3 @@
-require "stripe"
 require 'bcrypt'
 
 class CustomerResource < JSONAPI::Resource
@@ -6,7 +5,6 @@ class CustomerResource < JSONAPI::Resource
   filters :unsubscribe 
   
   before_save do
-        stripe = Stripe.api_key = ENV['SECRET_KEY']
         # Token is created using Checkout or Elements!
         # Get the payment token ID submitted by the form:
         token = @model.token
