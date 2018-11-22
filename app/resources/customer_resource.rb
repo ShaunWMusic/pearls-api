@@ -42,9 +42,9 @@ class CustomerResource < JSONAPI::Resource
         new_account = @model 
 
 
-        mail = NewUserMailer.New_user(newuser) if @model.new_record?
+        # mail = NewUserMailer.New_user(newuser) if @model.new_record?
+        # mail.deliver_now if @model.new_record?
         mail_new_account = NewAccountMailer.New_account(create_account) if @model.new_record?
-        mail.deliver_now if @model.new_record?
         mail_new_account.deliver_now if @model.new_record?
         @model.save
         # plan.email = email
