@@ -6,7 +6,7 @@ class CustomerResource < JSONAPI::Resource
   filters :unsubscribe 
   
   before_save do
-        stripe = Stripe.api_key = ENV['SECRET_TEST_KEY']
+        stripe = Stripe.api_key = ENV['SECRET_KEY']
         # Token is created using Checkout or Elements!
         # Get the payment token ID submitted by the form:
         token = @model.token
@@ -73,7 +73,6 @@ class CustomerResource < JSONAPI::Resource
         subscriptiondata.delete
         mail = UnsubscribeMailer.Cancel_account(findRecord[0].last) 
         mail.deliver_now
-        binding.pry
         records.where('source = ?', value)
         
         # records.where('user_id LIKE ?', "%#{value.first}%")
