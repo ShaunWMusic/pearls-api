@@ -66,12 +66,17 @@ class CustomerResource < JSONAPI::Resource
       when :receipt
         records.where('user_id = ?', value)
       when :unsubscribe
-        findRecord = records.where('user_id = ?', value).pluck(:source, :email) 
+        findRecord = records.where('user_id = ?', value).pluck(:source, :email, :id) 
         customerRetrieval = Stripe::Customer.retrieve(findRecord[0].first)
         subscriptionId = customerRetrieval.subscriptions.data[0].id
         subscriptiondata = Stripe::Subscription.retrieve(subscriptionId)
         subscriptiondata.delete
-        mail = UnsubscribeMailer.Cancel_account(findRecord[0].last) 
+        planrecord = Plan.find_by!(customer_id: findRecord[0].last).pluck(:id)
+        subrecord = Subscription.find_by!(customer_id: planrecord[0])
+        planrecord.delete
+        subrecord.delete
+        records.delete(findRecord[0].last)
+        mail = UnsubscribeMailer.Cancel_account(findRecord[0].second) 
         mail.deliver_now
         records.where('user_id = ?', value)
         
