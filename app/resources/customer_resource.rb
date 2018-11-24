@@ -2,7 +2,7 @@ require 'bcrypt'
 
 class CustomerResource < JSONAPI::Resource
   attributes :account_balance, :business_vat_id, :coupon, :default_source, :description, :email, :invoice_prefix, :metadata, :source, :token, :card, :username, :user_id, :created_at
-  filters :unsubscribe 
+  filters :receipt, :unsubscribe 
   
   before_save do
         # Token is created using Checkout or Elements!
@@ -63,15 +63,17 @@ class CustomerResource < JSONAPI::Resource
     end
     def self.apply_filter(records, filter, value, options)
       case filter
+      when :receipt
+        records.where('user_id = ?', value)
       when :unsubscribe
-        findRecord = records.where('source = ?', value).pluck(:source, :email) 
+        findRecord = records.where('user_id = ?', value).pluck(:source, :email) 
         customerRetrieval = Stripe::Customer.retrieve(findRecord[0].first)
         subscriptionId = customerRetrieval.subscriptions.data[0].id
         subscriptiondata = Stripe::Subscription.retrieve(subscriptionId)
         subscriptiondata.delete
         mail = UnsubscribeMailer.Cancel_account(findRecord[0].last) 
         mail.deliver_now
-        records.where('source = ?', value)
+        records.where('user_id = ?', value)
         
         # records.where('user_id LIKE ?', "%#{value.first}%")
       else
