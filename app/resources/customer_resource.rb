@@ -2,7 +2,7 @@ require 'bcrypt'
 
 class CustomerResource < JSONAPI::Resource
   attributes :account_balance, :business_vat_id, :coupon, :default_source, :description, :email, :invoice_prefix, :metadata, :source, :token, :card, :username, :user_id, :created_at
-  filters :receipt, :unsubscribe 
+  filters :receipt, :unsubscribe, :subscribe
   
   before_save do
         # Token is created using Checkout or Elements!
@@ -71,15 +71,26 @@ class CustomerResource < JSONAPI::Resource
         subscriptionId = customerRetrieval.subscriptions.data[0].id
         subscriptiondata = Stripe::Subscription.retrieve(subscriptionId)
         subscriptiondata.delete
-        planrecord = Plan.find_by!(customer_id: findRecord[0].last).pluck(:id)
-        subrecord = Subscription.find_by!(customer_id: planrecord[0])
+        planrecord = Plan.find_by!(customer_id: findRecord[0].last)
+        subrecord = Subscription.find_by!(customer_id: planrecord.id)
         planrecord.delete
         subrecord.delete
         records.delete(findRecord[0].last)
         mail = UnsubscribeMailer.Cancel_account(findRecord[0].second) 
         mail.deliver_now
         records.where('user_id = ?', value)
+      # when :subscribe
+      #   binding.pry
+      #    plan_id = @model.customer_id
+      #   findplan = Plan.where(id: plan_id).pluck(:product, :id, :customer_id)
+      #   product = findplan[0].first
+      #   plan_id = findplan[0].second
+      #   customer_id = findplan[0].third
+      #   @model.item = product
+      #   source = Customer.where(id: customer_id).pluck(:source)
         
+      #   plan = Stripe::Plan.retrieve(product)
+      #   Stripe::Subscription.create( :customer => source[0], :items => [{ :plan => plan.id}], :coupon => "black-friday")
         # records.where('user_id LIKE ?', "%#{value.first}%")
       else
         super
