@@ -8,7 +8,7 @@ class CustomerResource < JSONAPI::Resource
         # Token is created using Checkout or Elements!
         # Get the payment token ID submitted by the form:
         token = @model.token
-        create_customer =  Stripe::Customer.create( :description => "Customer for Pearls Beard Oil", :source => token, :email => email, :coupon => coupon )
+        create_customer =  Stripe::Customer.create( :description => description, :source => token, :email => email, :coupon => coupon )
         @model.source = create_customer.id
         email = @model.token
         email = @model.email
