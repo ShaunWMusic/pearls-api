@@ -4,7 +4,7 @@ end
 
 def create
   # Amount in cents
-  @amount = 750
+  @amount = 1399
 
   customer = Stripe::Customer.create(
     :email => params[:stripeEmail],
