@@ -11,6 +11,7 @@ class NewUserMailer < ApplicationMailer
          subject: "Your Pearls Beard Oil receipt"
   end
 
+
 # For password reset
 #   def Forgot_password(new_password)
 #     @user = new_password

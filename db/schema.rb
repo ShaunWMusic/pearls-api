@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181129214603) do
+ActiveRecord::Schema.define(version: 20190202213055) do
 
   create_table "barbershop_inventories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "delivery_date"
@@ -25,13 +25,14 @@ ActiveRecord::Schema.define(version: 20181129214603) do
   end
 
   create_table "charges", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+    t.string "receipt_email"
+    t.string "source"
     t.float "amount", limit: 24
     t.string "description"
     t.string "currency"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "source"
-    t.string "receipt_email"
+    t.string "tracking_number"
   end
 
   create_table "contacts", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -62,6 +63,7 @@ ActiveRecord::Schema.define(version: 20181129214603) do
     t.string "card"
     t.string "username"
     t.bigint "user_id"
+    t.string "tracking_number"
     t.index ["user_id"], name: "index_customers_on_user_id"
   end
 
@@ -129,11 +131,11 @@ ActiveRecord::Schema.define(version: 20181129214603) do
     t.string "email"
     t.string "username"
     t.string "password_digest"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.boolean "admin"
     t.boolean "barbershop"
     t.boolean "customer"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   add_foreign_key "customers", "users"
