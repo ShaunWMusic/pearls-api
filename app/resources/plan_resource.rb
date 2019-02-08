@@ -3,17 +3,16 @@ class PlanResource < JSONAPI::Resource
       
     before_save do 
         id = @model.customer_id
-        # binding.pry
-        # findplan = Plan.find_by!(customer_id: id) 
-        # @model.product = findplan.product 
-        user = User.new
+        findplan = Customer.find_by!(id: id)
+        @model.product = findplan.description 
+        # user = User.new
         plan = @model.product
-        plan.gsub!(/\ +/, '-')
+        # plan.gsub!(/\ +/, '-')
         plan = Stripe::Plan.retrieve(plan)
         @model.interval = plan.interval
         @model.amount = plan.amount
         @model.currency = plan.currency
-        user.save
+        # user.save
         @model.save     
     end
 end
