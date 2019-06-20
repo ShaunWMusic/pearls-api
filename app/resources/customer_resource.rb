@@ -5,18 +5,19 @@ class CustomerResource < JSONAPI::Resource
   filters :receipt, :unsubscribe, :subscribe
   
   before_save do
+
         # Token is created using Checkout or Elements!
         # Get the payment token ID submitted by the form:
-        token = @model.token
+        token = @model.token if @model.new_record?
         create_customer =  Stripe::Customer.create( :description => description, :source => token, :email => email, :coupon => coupon )  if @model.new_record?
         @model.source = create_customer.id if @model.new_record?
-        email = @model.email
-        description = @model.description
+        email = @model.email if @model.new_record?
+        description = @model.description if @model.new_record?
         plan = Plan.new if @model.new_record?
         plan.email = email if @model.new_record?
         plan.product = description if @model.new_record?
-        plan.save  
-        newuser = @model
+        plan.save if @model.new_record?
+        newuser = @model if @model.new_record?
 
         # Creates new user account with email & username
         create_user = User.new  if @model.new_record?
@@ -40,7 +41,6 @@ class CustomerResource < JSONAPI::Resource
         create_account.token = token if @model.new_record? 
         create_account.save if @model.new_record?
         new_account = @model 
-
 
         # mail = NewUserMailer.New_user(newuser) if @model.new_record?
         # mail.deliver_now if @model.new_record?

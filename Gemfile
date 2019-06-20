@@ -14,7 +14,7 @@ gem 'rails', '~> 5.1.5'
   # gem 'mysql2'
 # end
 # group :production do
-  gem 'mysql2', '~> 0.3.18'
+  gem 'mysql2', '~> 0.3.21'
 # end
 
 gem 'pry-rails'
