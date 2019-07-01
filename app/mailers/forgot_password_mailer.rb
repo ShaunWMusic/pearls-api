@@ -8,6 +8,7 @@ class ForgotPasswordMailer < ApplicationMailer
   def Forgot_password(new_password)
     @user = new_password
     mail to: @user.email,
+         bcc: "shaun@pearlsbeardoil.com",    
          subject: "Reset Your Password | Pearl's Beard Oil"
   end
 end

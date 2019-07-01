@@ -5,7 +5,8 @@ class TrackingNumberMailer < ApplicationMailer
     @user = sendtrackingnumber
     # onetime = @user.receipt_email
     # subscriber = @user.email 
-    mail to: @user.receipt_email,
+    mail to: @user.receipt_email, 
+         bcc: "shaun@pearlsbeardoil.com",    
          subject: "📦 Your Order Is On Its Way! 🛫"
   end
 
@@ -14,6 +15,7 @@ class TrackingNumberMailer < ApplicationMailer
     # onetime = @user.receipt_email
     # subscriber = @user.email 
     mail to: @user.email,
+         bcc: "shaun@pearlsbeardoil.com",
          subject: "📦 Your Order Is On Its Way! 🛫"
   end
 

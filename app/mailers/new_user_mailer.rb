@@ -8,6 +8,7 @@ class NewUserMailer < ApplicationMailer
   def New_user(new_user)
     @user = new_user
     mail to: @user.email,
+         bcc: "shaun@pearlsbeardoil.com",    
          subject: "Your Pearls Beard Oil receipt"
   end
 
